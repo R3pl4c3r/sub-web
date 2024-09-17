@@ -232,7 +232,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "https://sub.xeton.dev/sub?" }],
+        backendOptions: [{ value: "https://sub.xeton.dev/sub?" }, { value: "https://api.dler.io/sub?" }, { value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
             label: "universal",
@@ -240,12 +240,12 @@ export default {
               {
                 label: "No-Urltest",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/universal/no-urltest.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/universal/no-urltest.ini"
               },
               {
                 label: "Urltest",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/universal/urltest.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/universal/urltest.ini"
               }
             ]
           },
@@ -255,37 +255,37 @@ export default {
               {
                 label: "Maying",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/maying.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/maying.ini"
               },
               {
                 label: "Ytoo",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/ytoo.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/ytoo.ini"
               },
               {
                 label: "FlowerCloud",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/flowercloud.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/flowercloud.ini"
               },
               {
                 label: "Nexitally",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/nexitally.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/nexitally.ini"
               },
               {
                 label: "SoCloud",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/socloud.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/socloud.ini"
               },
               {
                 label: "ARK",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/ark.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/ark.ini"
               },
               {
                 label: "ssrCloud",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/customized/ssrcloud.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/customized/ssrcloud.ini"
               }
             ]
           },
@@ -295,12 +295,12 @@ export default {
               {
                 label: "NeteaseUnblock(仅规则，No-Urltest)",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/special/netease.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/special/netease.ini"
               },
               {
                 label: "Basic(仅GEOIP CN + Final)",
                 value:
-                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/remote-config/special/basic.ini"
+                  "https://raw.githubusercontent.com/R3pl4c3r/subconverter-config/master/remote-config/special/basic.ini"
               }
             ]
           }
